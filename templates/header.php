@@ -51,7 +51,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="buku-tamu.php">
+                <a class="nav-link" href="buku_tamu.php">
                     <i class="fas fa-fw fa-book-open"></i>
                     <span>Buku Tamu</span></a>
             </li>

@@ -57,8 +57,8 @@ include_once('templates/header.php');
                                 <td><?php echo $tamu['bertemu']; ?></td>
                                 <td><?php echo $tamu['kepentingan']; ?></td>
                                 <td>
-                                    <button class="btn btn-sm btn-primary" type="button">Edit</button>
-                                    <button class="btn btn-sm btn-danger" type="button">Hapus</button>
+                                    <a class="btn btn-success" href="edit-tamu.php?id_tamu=<?=$tamu['id_tamu']?>">Ubah</a>
+                                    <a class="btn btn-danger" href="hapus-tamu.php?id_tamu=<?=$tamu['id_tamu']?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ini?')">Hapus</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
